@@ -21,9 +21,15 @@ The only test that improved the RMS value was high pulley damping.
 
 ## simple_sinus.jl
 
-[Baseline](simple_sinus/Baseline.md) with dt = 0.05/3, AERO_MODE = AeroDirect(): Good
+[Baseline](simple_sinus/Baseline.md) with dt = 0.05/3, AERO_MODE = AeroDirect():
+-  Heading tracking RMS error (t ≥ 30 s): 0.71°
+-  ripple RMS : 0.0129 °
+-  real-time factor : 2.153 (laptop)
 
 [Baseline_continues](simple_sinus/Baseline_continues.md) with dt = 0.05/3, AERO_MODE = ContinuousAero(): Very bad oscillations
 
-[Baseline_continues_VSM3](simple_sinus/Baseline_continues_VSM3.md) with dt = 0.05/3, AERO_MODE = ContinuousAero(), VSM_INTERVAL = 3: Good
+[Baseline_continues_VSM3](simple_sinus/Baseline_continues_VSM3.md) with dt = 0.05/3, AERO = ContinuousAero(), VSM_INTERVAL = 3:
+-  Heading tracking RMS error (t ≥ 30 s): 0.73°
+-  ripple RMS : 0.0077 °
+-  real-time factor : 1.467
 
