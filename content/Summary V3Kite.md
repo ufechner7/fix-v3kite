@@ -19,7 +19,7 @@ The only test that improved the RMS value was high pulley damping.
 
 [DT 50ms](simple_auto_parking/DT%2050ms.md) with dt = 0.05. ripple RMS = 0.0135 ° 
 
-[[Fix V3Kite/simple_auto_parking/Low Damping|Low Damping]] with dt = 0.05/3, DAMPING_PER_STIFFNESS = 0.001.  
+[Low Damping](simple_auto_parking/Low%20Damping.md) with dt = 0.05/3, DAMPING_PER_STIFFNESS = 0.001.  
 -  ripple RMS = 0.0029 °
 -  real-time factor   :    7.780 
 ## simple_sinus.jl
@@ -36,7 +36,7 @@ The only test that improved the RMS value was high pulley damping.
 -  ripple RMS : 0.0077 °
 -  real-time factor : 1.467
 
-[[Fix V3Kite/simple_sinus/Low Damping|Low Damping]] with dt = 0.05/3, AERO_MODE = AeroDirect(), DAMPING_PER_STIFFNESS = 0.001:
+[Low Damping](simple_sinus/Low%20Damping.md) with dt = 0.05/3, AERO_MODE = AeroDirect(), DAMPING_PER_STIFFNESS = 0.001:
 -  Heading tracking RMS error (t ≥ 30 s): 0.71°
 -  ripple RMS         :   0.0034 °
 -  real-time factor   :    5.797
